@@ -1,0 +1,78 @@
+html{
+  background-color: black;
+}
+td{
+  border: 1px solid whitesmoke;
+  text-align: left;
+  padding: 55px;
+}
+td:hover{
+  border: 2px solid papayawhip;
+  box-shadow:  2px 2px 20px 0px darkred ;
+  border-radius: 10px;
+}
+
+.table_wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+table{
+  background-color: navajowhite;
+  border-radius: 5px;
+  border: 5px solid papayawhip;
+}
+
+.container{
+  text-align: center;
+}
+
+h1{
+  color: #26e726;
+  font-size: 50px;
+}
+
+.winner{
+  color: #26e726;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.player{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.player div {
+  padding: 20px;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  background-color: navajowhite;
+}
+
+.player1 {
+  margin-right: 20px;
+}
+
+.clear{
+  padding: 20px;
+  background-color: navajowhite;
+  border: 2px solid whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.clear:hover{
+  padding: 25px;
+  box-shadow: 1px 1px 18px 3px #d4d2d2;
+}
+
+.turn {
+  /*if background property has and if applied again , still it'll show this color*/
+  background-color: greenyellow !important;
+}
